@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(35, 32, 37), rgba(253,29,29,1) 50%, rgb(54, 51, 47) 100%);
+    margin: 30px;
+}
+
+main .cont {
+    margin-left: 37rem;
+}
+
+main {
+    height: 150vh;
+    border: 2px solid red;
+}
+
+main .container {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    border: 2px solid #ffff;
+    margin: 80px ;
+    border-radius: 30px;
+    box-shadow: 2px 4px 3px 3px black;
+}
+main h1 {
+    color: #ffff;
+    text-transform: uppercase; 
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+main img {
+    width: 400px;
+    padding-top: 20px;
+}
+
+main .desc {
+    border: 2px solid rgb(56, 45, 45);
+    width:1300px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 4px;
+}
+
+main .step {
+    border: 2px solid rgb(56, 45, 45);
+    height: 400px;
+    width:500px;
+    line-height: 50px;
+    flex-direction: column;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 2px 4px black;
+    color: #ffff;
+
+}
+
+main .step p {
+    font-size: 25px;
+    font-weight: bold;
+    color: chocolate;
+    margin: 5px;
+}
+
+main .step ol {
+    margin-left: 20px;
+}
+
+main .step:hover {
+    transform: scale(1.1);
+}
+
+main .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+main ul {
+    margin-left: 30px;
+}
